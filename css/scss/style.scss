@@ -86,11 +86,22 @@ footer {
         }
     }
 }
-
-main {
-    .produit {
-        .article {
-            box-shadow: 10px 5px 5px red;
+.aticle {
+    box-shadow: 5px 10px 10px rgb(242, 236, 236);
+    position: relative;
+        img{
+        width: 100%;
         }
-    }
+}
+
+.solde::before {
+    content:'';
+    background-color: white;
+    width:4px;
+    height:310px;
+    transform: rotate(37deg);
+    display: inline-block;
+    position: absolute;
+    left:96px;
+    bottom:71px;
 }
