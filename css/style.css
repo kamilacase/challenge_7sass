@@ -1,5 +1,5 @@
 header {
-  background-color: #220909;
+  background-color: #331a00;
   color: white; }
   header nav ul {
     width: 100%;
@@ -20,7 +20,7 @@ h2 {
   text-align: center; }
 
 #btn_head {
-  background-color: #c8c87a;
+  background-color: #cccc99;
   color: white;
   font-weight: bold;
   font-size: 22px;
@@ -38,5 +38,35 @@ h2 {
 .fleche {
   font-size: 3rem;
   margin-left: auto; }
+
+h3 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem; }
+
+main {
+  width: 80%;
+  margin: auto; }
+
+footer {
+  background-color: #003366;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  padding-left: 60px; }
+  footer #ok {
+    color: gray; }
+  footer h3 {
+    text-align: left; }
+  footer ul {
+    list-style-type: none;
+    padding-inline-start: 0px; }
+    footer ul li a {
+      color: gray;
+      text-align: left; }
+
+main .produit .article {
+  box-shadow: 10px 5px 5px red; }
 
 /*# sourceMappingURL=style.css.map */

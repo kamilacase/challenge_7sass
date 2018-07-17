@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(34, 9, 9);
+    background-color: #331a00;
     color: white;
     nav {
         ul {
@@ -29,7 +29,7 @@ h2 {
 }
 
 #btn_head {
-    background-color: rgb(200, 200, 122);
+    background-color: #cccc99;
     color: white;
     font-weight: bold;
     font-size: 22px;
@@ -42,10 +42,55 @@ h2 {
 }
 
 .btn {
-    color:white;
+    color: white;
     font-size: 1.5rem;
 }
+
 .fleche {
     font-size: 3rem;
     margin-left: auto;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding-left: 60px;
+    #ok {
+        color: gray;
+    }
+    h3 {
+        text-align: left;
+    }
+    ul {
+        list-style-type: none;
+        padding-inline-start: 0px;
+        li {
+            a {
+                color: gray;
+                text-align: left;
+            }
+        }
+    }
+}
+
+main {
+    .produit {
+        .article {
+            box-shadow: 10px 5px 5px red;
+        }
+    }
 }
