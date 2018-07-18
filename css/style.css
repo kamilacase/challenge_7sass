@@ -14,11 +14,11 @@ h1 {
   text-align: center;
   font-size: 5rem;
   margin-top: 9rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: bold; }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   font-weight: bold; }
 
@@ -85,13 +85,13 @@ footer {
 
 .solde::before {
   content: '';
-  background-color: white;
+  background-color: red;
   width: 4px;
-  height: 310px;
+  height: 290px;
   transform: rotate(37deg);
   display: inline-block;
   position: absolute;
-  left: 96px;
+  left: 86px;
   bottom: 71px; }
 
 .brown {
@@ -108,59 +108,31 @@ footer {
   font-weight: bold;
   margin-bottom: 2rem; }
 
-_hdp.scss header {
-  background-color: #331a00;
-  color: white;
-  font-family: 'Times New Roman', Times, serif; }
-  _hdp.scss header nav ul {
-    width: 100%;
-    justify-content: center; }
-    _hdp.scss header nav ul li a {
-      color: gray;
-      font-size: 2rem;
-      text-align: center; }
-_hdp.scss h1 {
-  text-align: center;
-  font-size: 5rem;
-  margin-top: 9rem;
-  margin-bottom: 2rem;
-  font-weight: bold; }
-_hdp.scss h2 {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: bold; }
-_hdp.scss #btn_head {
-  background-color: #cccc99;
-  color: white;
-  font-weight: bold;
-  font-size: 22px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  justify-content: center;
-  width: 400px;
-  height: 60px;
-  border-radius: 3%; }
-_hdp.scss .btn {
-  color: white;
-  font-size: 1.5rem; }
-_hdp.scss .fleche {
-  font-size: 3rem;
-  margin-left: auto; }
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 3rem; }
 
-_bdp.scss footer {
-  background-color: #003366;
-  color: white;
-  font-size: 20px;
-  width: 100%;
-  padding-left: 60px;
-  margin-top: 2rem; }
-  _bdp.scss footer h3 {
-    text-align: left; }
-  _bdp.scss footer ul {
-    list-style-type: none;
-    padding-inline-start: 0; }
-    _bdp.scss footer ul li a {
-      color: gray;
-      text-align: left; }
+  #btn_head {
+    background-color: #cccc99;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 3%; }
+
+  .solde::before {
+    content: '';
+    background-color: white;
+    width: 4px;
+    height: 430px;
+    transform: rotate(37deg);
+    display: inline-block;
+    position: absolute;
+    left: 140px;
+    bottom: 55px; } }
 
 /*# sourceMappingURL=style.css.map */
