@@ -2,10 +2,12 @@ header {
     background-color: #331a00;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+
     nav {
         ul {
             width: 100%;
             justify-content: center;
+
             li {
                 a {
                     color: gray;
@@ -74,12 +76,15 @@ footer {
     width: 100%;
     padding-left: 60px;
     margin-top: 2rem;
+
     h3 {
         text-align: left;
     }
+
     ul {
         list-style-type: none;
-        padding-inline-start: 0px;
+        padding-inline-start: 0;
+
         li {
             a {
                 color: gray;
@@ -97,15 +102,17 @@ footer {
     p {
         margin-bottom: 0;
     }
+
     h4 {
         margin-top: 1rem;
     }
     box-shadow: 5px 10px 10px rgb(242, 236, 236);
     position: relative;
+
     img {
         width: 100%;
     }
-    color:gray;
+    color: gray;
 }
 
 .solde::before {
@@ -136,4 +143,93 @@ footer {
     color: black;
     font-weight: bold;
     margin-bottom: 2rem;
+}
+
+_hdp.scss {
+    header {
+        background-color: #331a00;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+
+        nav {
+            ul {
+                width: 100%;
+                justify-content: center;
+
+                li {
+                    a {
+                        color: gray;
+                        font-size: 2rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 5rem;
+        margin-top: 9rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #btn_head {
+        background-color: #cccc99;
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        justify-content: center;
+        width: 400px;
+        height: 60px;
+        border-radius: 3%;
+    }
+
+    .btn {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .fleche {
+        font-size: 3rem;
+        margin-left: auto;
+    }
+}
+$color-gray: gray;
+$color-yellow: yellowgreen;
+
+_bdp.scss {
+    footer {
+        background-color: #003366;
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 60px;
+        margin-top: 2rem;
+
+        h3 {
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-inline-start: 0;
+
+            li {
+                a {
+                    color: gray;
+                    text-align: left;
+                }
+            }
+        }
+    }
 }
